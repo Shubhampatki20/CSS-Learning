@@ -1,0 +1,39 @@
+/* Universal selectors */
+
+*{
+    background-color: rgb(217, 43, 43);
+}
+/* individual selectors */
+p{
+    background-color: blueviolet;
+}
+
+/* class and id selectors */
+.sibling{
+    background-color: aqua;
+}
+#sibling2{
+    background-color: aquamarine;
+}
+
+.bg-black{
+   background-color: green;
+}
+.bg-black.bg-whit{
+    background-color: rgb(231, 213, 213);
+}
+/* combined selectors */
+span,li{
+    background-color: bisque;
+}
+/* Inside element */
+div li{
+    background-color: rgb(205, 20, 190);
+}
+div ul li{
+    background-color: rgb(8, 233, 120);
+}
+div>ul>li{
+    background-color: rgb(8, 204, 239);
+}
+
